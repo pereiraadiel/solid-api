@@ -2,7 +2,7 @@
 
 ## <h2 align='center'>Referência da API</h2>
 
-## <hr/> <br/>
+<br/>
 
 ### <p style='color: #0d9; font-weight: bold;'>Casos de uso</p>
 
