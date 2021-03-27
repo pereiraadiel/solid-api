@@ -1,9 +1,10 @@
 import { Router } from "express";
+import { createUserController } from "./useCases/CreateUser";
 
 const routes = Router();
 
 routes.post("/api/users", (req, res) => {
-  res.status(201).send();
+  return createUserController.handle(req, res);
 });
 
 export { routes };
